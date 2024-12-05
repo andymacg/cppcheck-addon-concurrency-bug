@@ -1,0 +1,13 @@
+// Suppress stdlib header-related warnings to isolate the internalError
+misra-c2023-21.4:
+misra-c2023-21.5:
+misra-c2023-21.6:
+misra-c2023-21.10:
+misra-c2023-21.11:
+premium-misra-c-2023-21.12:
+
+misra-c2012-21.4:
+misra-c2012-21.5:
+misra-c2012-21.6:
+misra-c2012-21.10:
+misra-c2012-21.11:
