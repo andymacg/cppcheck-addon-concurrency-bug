@@ -5,6 +5,7 @@ CPPCHECK ?= cppcheck
 premium: version all
 	$(CPPCHECK) \
 		-j 10 \
+		--verbose \
 		--premium=misra-c-2023 \
 		--suppressions-list=.cppcheck-suppressions \
 		--enable=style \
@@ -14,6 +15,7 @@ premium: version all
 misra: version all
 	$(CPPCHECK) \
 		-j 10 \
+		--verbose \
 		--addon=misra \
 		--suppressions-list=.cppcheck-suppressions \
 		--enable=style \
